@@ -6,8 +6,8 @@ export default function ParallaxBackground({ mousePos, children }) {
     <motion.div
       className="w-full h-full"
       animate={{
-        x: -mousePos.x / 5,
-        y: -mousePos.y / 5,
+        x: -mousePos.x / 2,
+        y: -mousePos.y / 2,
       }}
       transition={{
         type: "spring",
